@@ -1,6 +1,0 @@
-INDEX VERSION 1.4+C:\bookshop\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-985231020.index
-4027843437.index
-161333340.index
-1847442179.index
-1379477929.index
