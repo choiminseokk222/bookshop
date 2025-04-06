@@ -45,21 +45,21 @@ public class AdminGoodsDAOImpl  implements AdminGoodsDAO{
 		return goodsList;
 	}
 	
-	//3.
+	//3. 도서 상품 상세 정보 조회
 	@Override
 	public GoodsVO selectGoodsDetail(int goods_id) throws DataAccessException{
 		GoodsVO goodsBean=(GoodsVO)sqlSession.selectOne("mapper.admin.goods.selectGoodsDetail",goods_id);
 		return goodsBean;
 	}
 	
-	//4.
+	//4. 도서 상품 이미지 목록 조회
 	@Override
 	public List selectGoodsImageFileList(int goods_id) throws DataAccessException {
 		List imageList=(List)sqlSession.selectList("mapper.admin.goods.selectGoodsImageFileList",goods_id);
 		return imageList;
 	}
 	
-	//5.
+	//5. 도서 상품 정보 수정
 	@Override
 	public void updateGoodsInfo(Map goodsMap) throws DataAccessException{
 		sqlSession.update("mapper.admin.goods.updateGoodsInfo",goodsMap);
