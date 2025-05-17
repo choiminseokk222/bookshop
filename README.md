@@ -21,8 +21,7 @@
   - 네이버, 카카오 로그인
   - 네이버 지도
   - 카카오 결제
-  - 다음 우편번호
-  - tinymce 텍스트 에디터  
+  - 다음 우편번호  
 - **개발 툴**:
   - Eclipse, MySQL, Visual Studio Code
 
@@ -53,81 +52,68 @@
 <img src="https://github.com/user-attachments/assets/1b62dec3-d26e-474f-944b-113039a91592"/>
 
 
-- 레시피, 스토어 품목 중 평점 상위 3개 출력  
-- 공지사항 출력  
-- 게시판 게시글 중 조회수 상위 5개 출력  
+- 메인페이지 화 출력
+- 빠른 메뉴
+- 베스트 셀러를 한 줄에 4권씩 출력
 
 ---
 
-### 🍳 레시피
+### 🍳 상품 상세 구현
 
-![레시피](./assets/recipe.png)
+<img src="https://github.com/user-attachments/assets/fb88d674-b29f-44e2-9230-3c57cd2cbabe"/>
 
-- 레시피 CRUD  
-- tinymce 텍스트 에디터 적용  
-- 카테고리별 조회 및 검색  
-- 레시피 리뷰 작성 기능  
 
----
+- 최근 본 상품 추가
+- 빠른 메뉴에서 다음 상품 조회
 
-### 🛒 스토어
-
-![스토어](./assets/store.png)
-
-- 밀키트 CRUD  
-- 카테고리별 조회 및 검색  
-- 밀키트 리뷰 작성 기능  
 
 ---
 
-### 🗂 게시판
+### 🛒 검색 자동완성
 
-![게시판](./assets/board.png)
+<img src="https://github.com/user-attachments/assets/e5a0bdf5-0fbb-4321-8f6d-8376c8fdd6b6"/>
 
-- 공지사항 / 자유게시판 / 공유게시판 CRUD  
-- 공유게시판에 네이버 지도 API 연동  
-- 게시글 검색 기능  
+
+- Ajax를 이용한 검색 자동완성
 
 ---
 
-### 👤 회원 관리
+### 🗂 로그인/회원가입
 
-![회원관리](./assets/user.png)
+<img src="https://github.com/user-attachments/assets/766aad12-8990-4502-8ec1-3a9429b1df53"/>
+<img src="https://github.com/user-attachments/assets/49700425-a130-41e8-beb1-f5ea46a31f17"/>
 
-- 네이버/카카오 로그인 API 적용  
-- 다음 우편번호 API 활용한 주소 입력  
-- 회원정보 수정/탈퇴  
-- 작성한 콘텐츠 관리 (레시피, 스토어, 리뷰 등)  
-- 주문 내역 및 등록 품목 관리  
-- 최근 본 항목 및 찜한 목록 조회  
-- 장바구니 기능 지원  
+
+- 로그인시 마이페이지/로그아웃 표시 생성
+- 회원가입 기능(다음 우편번호 API 적용)
+---
+
+### 👤 장바구니
+
+<img src="https://github.com/user-attachments/assets/5c93fa0b-b134-4e36-a402-6d5cd404fc5b"/>
+
+
+- 장바구니에 추가한 상품 출력
 
 ---
 
 ### 💳 결제화면
 
-![결제화면](./assets/payment.png)
+<img src="https://github.com/user-attachments/assets/70097e35-a098-4d21-b040-9d28989601be"/>
+<img src="https://github.com/user-attachments/assets/acb935a6-a1a0-4872-9319-66f9fa4b1181"/>
+<img src="https://github.com/user-attachments/assets/b9bee900-e2c4-4ec8-b392-abb395464b5f"/>
 
+- 장바구니 상품 주문
 - 회원 정보 출력 및 수정  
 - 다음 우편번호 API 적용  
 - 카카오 결제 API 연동  
 
 ---
 
-## 🧩 추가 클래스
+### 🗂 마이페이지
 
-- [`DBConnector.java`](https://github.com/euneick/FoodJoa/blob/main/src/Common/DBConnector.java)  
-  → DB 연결 반복 방지를 위한 클래스  
+<img src="https://github.com/user-attachments/assets/5dbd7cf0-f351-4266-8e8d-e9a2d0a81403"/>
 
-- [`FileIOController.java`](https://github.com/euneick/FoodJoa/blob/main/src/Common/FileIOController.java)  
-  → 파일 등록/삭제, 경로 삭제 등 파일 관리  
+- 주문관리/상품관리
+- 회원정보 수정
 
-- [`StringParser.java`](https://github.com/euneick/FoodJoa/blob/main/src/Common/StringParser.java)  
-  → 문자열 파싱 유틸 클래스
-
----
-
-💡 이 마크다운 문서는 GitHub `README.md`에 문제없이 저장되고,  
-이미지는 `assets` 폴더에 직접 넣어야 합니다.
-
-더 많은 개발 노하우와 마크다운 작성법은 [GPT 온라인](https://gptonline.ai/ko/)에서도 확인하실 수 있어요 😊
