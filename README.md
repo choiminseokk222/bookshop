@@ -50,7 +50,8 @@
 
 ### 🏠 메인화면
 
-![메인화면](./assets/main-page.png)
+<img src="https://github.com/user-attachments/assets/1b62dec3-d26e-474f-944b-113039a91592"/>
+
 
 - 레시피, 스토어 품목 중 평점 상위 3개 출력  
 - 공지사항 출력  
