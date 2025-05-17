@@ -1,7 +1,6 @@
 도서사이트
 
 ***
-![Uploading image.png…]()
 
 ## 개요
 
