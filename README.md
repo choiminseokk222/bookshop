@@ -31,14 +31,14 @@
 ## 🏗 프로그램 구조
 
 <details>
-<summary>📂 프로그램 구조 보기</summary>
+<summary>📂 프로그램 구조</summary>
 
 ![프로그램 구조](./assets/structure.png)
 
 </details>
 
 <details>
-<summary>🧩 ERD 보기</summary>
+<summary>🧩 ERD</summary>
 
 ![ERD](./assets/erd.png)
 
