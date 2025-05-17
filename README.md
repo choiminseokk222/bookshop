@@ -34,7 +34,7 @@
 
 ***
  
-## 프로그램 구조 및 ERD
+## 프로그램 구조
 
 <details>
 <summary>프로그램 구조</summary>
