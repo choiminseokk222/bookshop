@@ -1,6 +1,6 @@
 # 📚 프로젝트 소개
 
-![인트로 이미지](./assets/main.png)
+![image](https://github.com/user-attachments/assets/fa00936b-1448-492a-9b95-62a98232c97a)
 
 ---
 
