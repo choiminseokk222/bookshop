@@ -1,8 +1,7 @@
-# 📚 프로젝트 소개
-
 ![image](https://github.com/user-attachments/assets/fa00936b-1448-492a-9b95-62a98232c97a)
 
 ---
+# 📚 프로젝트 소개
 
 ## 개요
 
