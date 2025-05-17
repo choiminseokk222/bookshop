@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fa00936b-1448-492a-9b95-62a98232c97a)
+<img src="https://github.com/user-attachments/assets/fa00936b-1448-492a-9b95-62a98232c97a" width="800px"/>
 
 ---
 # 📚 프로젝트 소개
