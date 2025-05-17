@@ -1,6 +1,4 @@
-![Uploading image.png…]()
-
-
+<img src="https://github.com/user-attachments/assets/0d76216e-3037-4b2b-8ee0-e8ec112f39cf" width="100px"/>
 
 ---
 # 📚 프로젝트 소개
